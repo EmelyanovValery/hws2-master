@@ -1,0 +1,29 @@
+.sendForm {
+    order: 3;
+}
+
+.textarea {
+    rows:3;
+
+}
+
+.button {
+    border: 1px solid blue;
+    background: #0066CC;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.button:hover {
+    border: 1px solid blue;
+}
+.button:active {
+    border: 1px solid blue;
+}
