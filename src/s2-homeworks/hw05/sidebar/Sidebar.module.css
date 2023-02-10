@@ -1,7 +1,13 @@
 .sidebar {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
 }
 
 .sidebar.open {
+
 }
 
 .background {
@@ -11,12 +17,16 @@
 }
 
 .nav a {
+
 }
 
 .nav a:hover {
 }
 
 .nav a.active {
+    text-decoration-line: underline;
+
+    color: #0059B2;
 }
 .close {
 }
