@@ -1,5 +1,7 @@
 
 .loader {
     /*свг и/или анимация*/
-    background: greenyellow;
+    background-image: url("Ellipse.svg");
+    width: 100px;
+    height: 100px;
 }
