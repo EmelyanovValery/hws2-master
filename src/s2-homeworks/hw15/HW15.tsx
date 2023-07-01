@@ -40,7 +40,7 @@ const getTechs = (params: ParamsType) => {
 
 const HW15 = () => {
     const [sort, setSort] = useState('')
-    const [page, setPage] = useState(1)
+    const [page, setPage] = useState(2)
     const [count, setCount] = useState(4)
     const [idLoading, setLoading] = useState(false)
     const [totalCount, setTotalCount] = useState(100)
@@ -63,8 +63,9 @@ const HW15 = () => {
         // делает студент
 
         // setPage(
+        setPage(newPage)
         // setCount(
-
+        setCount(newCount)
         // sendQuery(
         // setSearchParams(
 
